@@ -1,0 +1,162 @@
+    1  cd /GitLessen
+    2  git config --global user.mane
+    3  git config --global user.mane (Sofiia)
+    4  git config --global user.name (Sofiia)
+    5  git config --global --list
+    6  [200~git config --global user.name Sofiia
+    7  git config --global user.name Sofiia
+    8  git config --globa user.emai szarvina@gmail.com
+    9  git config --global --list
+   10  git config --globa user.emai "szarvina@gmail.com"
+   11  git config --global user.name "Sofiia"
+   12  git config --global --list
+   13  mrdir 150825-wde
+   14  mcdir 150825-wde
+   15  mkdir 150825-wde
+   16  ls -al
+   17  clear
+   18  cd 150825-wde/
+   19  cd
+   20  git init
+   21  cd 150825-wde/
+   22  ls -al
+   23  cd ..
+   24  ls -al
+   25  clear
+   26  cd 150825-wde/
+   27  git init
+   28  ls -al
+   29  cd
+   30  ls -al
+   31  rmdir .git /s /q
+   32  rmdir .git -s -q
+   33  rm -rf .git
+   34  ls -al
+   35  cd 150825-wde/
+   36  ls -al
+   37  git status
+   38  git remote add origin git@github.com:donldol15/150825-wde.git
+   39  git branch -M main
+   40  [200~git push -u origin main~
+   41  [200~git push -u origin main
+   42  git push -u origin main
+   43  cd
+   44  data
+   45  date
+   46  [200~chmod +x check_script.sh
+   47  echo $SHELL
+   48  #!/bin/bash
+   49  DIR="$1"
+   50  EXT="$2"
+   51  if ls "$DIR"/*."$EXT" 1> /dev/null 2>&1; then     echo "Файлы с расширением .$EXT найдены"; else     echo "Ошибка: файлов с расширением .$EXT нет";     exit 1; fi
+   52  git config --global --list
+   53  git status
+   54  cd git_intro
+   55  git status
+   56  git clone git@github.com:donldol15/git_intro.git
+   57  cd git_intro
+   58  git status
+   59  git status
+   60  git add .
+   61  git status
+   62  git commit -m "Added photo"
+   63  git log 
+   64  git remote add origin git@github.com:donldol15/git_intro.git
+   65  git branch -M main
+   66  git push -u origin main
+   67  ls -al
+   68  cd ..
+   69  ls -al
+   70  nano /tmp/file.txt
+   71  nano /tmp/file.txt
+   72  vi /tmp/file.txt
+   73  git clone git@github.com:donldol15/git-branch.git
+   74  cd git-branch/
+   75  git status 
+   76  git checkout -b gitignore
+   77  git status 
+   78  nano .gitignore 
+   79  git status 
+   80  git add .
+   81  git status 
+   82  git commit -m "creat file gitignire" 
+   83  git push -u origin gitignore 
+   84  git remote add origin git@github.com:donldol15/git-new.git
+   85  git@github.com:donldol15/git-new.git
+   86  git clone https://github.com/donldol15/git-new
+   87  cd git-new
+   88  cp C:\Users\Admin\150825-wde\git-branch
+   89  cp \Users\Admin\150825-wde\git-branch
+   90  cp Users\Admin\150825-wde\git-branch
+   91  cp Users/Admin/150825-wde/git-branch
+   92  ls -al
+   93  cd Users/Admin/150825-wde/git-branch
+   94  ls -al
+   95  cd /150825-wde/git-branch
+   96  ls -al
+   97  cd /git-branch
+   98  git clone https://github.com/it-career-hub/learning_git
+   99  ls -al
+  100  ls
+  101  mkdir Sofiia.txt
+  102  echo "hi, it's hw 14"
+  103  git clone https://github.com/it-career-hub/learning_git/tree/main/150825-wde
+  104  ls 
+  105  touch Sofiia.txt
+  106  echo "Hi, it's my hw"
+  107  cat Sofiia.txt
+  108  cat /150825-wde/Sofiia.txt
+  109  git add Sofiia.txt
+  110  git commit -m "add file"
+  111  git push origin main
+  112  git clone https://github.com/it-career-hub/learning_git
+  113  ls 
+  114  git clone https://github.com/it-career-hub/learning_git
+  115  cd learning_git
+  116  ls
+  117  cd 150825-wde/
+  118  touch Sofiia.txt
+  119  echo "hi, it's my hw"
+  120  git add 150825-wde
+  121  git commit -m "add file"
+  122  git add Sofiia.txt
+  123  git commit -m "add file"
+  124  git push origin main
+  125  git push origin main
+  126  git push origin main
+  127  git clone https://github.com/donldol15/learning_git
+  128  cd learning_gid
+  129  ls
+  130  git clone https://github.com/donldol15/learning_git
+  131  ls
+  132  cd lrarning_git
+  133  git clone git@github.com:donldol15/learning_git.git
+  134  git clone https://github.com/it-career-hub/learning_git
+  135  git clone https://github.com/donldol15/learning_git
+  136  cd learning_git
+  137  ls 
+  138  cd 150825-wde/
+  139  touch Sofiia.txt
+  140  echo "hi" > Sofiia.txt
+  141  git add Sofiia.txt
+  142  git commit -m "add file"
+  143  git push origin main
+  144  git remote -v
+  145  git remote remove origin
+  146  git remote add origin https://github.com/donldol15/learning_git
+  147  git remote -v
+  148  git push origin main
+  149  git clone https://github.com/donldol15/git-new1
+  150  cd git-new1
+  151  touch .gitignore
+  152  [200~git checkout -b feature
+  153  git checkout -b feature 
+  154  echo "Changes in feature branch" >> README.md
+  155  echo "node_modules/" >> .gitignore
+  156  git add README.md .gitignore 
+  157  git commit -m "Update README and gitignore"
+  158  git push -u origin feature
+  159  git commit --amend -m "Update README and gitignore ammend"
+  160  git checkout main
+  161  git merge feature
+  162  history > history.txt
